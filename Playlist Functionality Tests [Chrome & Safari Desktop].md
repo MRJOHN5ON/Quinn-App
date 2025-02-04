@@ -68,7 +68,7 @@
 ## Playlist Duration Discrepancy  
 - The **total duration in the playlist header is consistently one second longer** than the sum of all stories in the playlist.  
 - This occurs **even when the playlist contains only a single story**.  
-  - **Image Evidence:** ![One Second Difference](one_second_difference.png)  
+  - **Image Evidence:** ![One Second Difference](https://drive.google.com/file/d/1Xkc9EZvjg9C_Kq_mjhl1hKidjXMiaxtm/view?usp=sharing)  
 
 ## Postman Demonstration  
 - Using **Chrome DevTools Network tab**, I gathered data to send a **POST request** and manipulate playlists.  
