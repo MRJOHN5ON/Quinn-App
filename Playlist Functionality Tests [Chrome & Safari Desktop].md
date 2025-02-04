@@ -24,7 +24,9 @@
 ## Favoriting Audio  
 - **Tested various flows** for favoriting and removing favorites. **No issues observed** with functionality.  
 - **Issue Identified:** The **likes count in the Account Overview tab remains at zero** when favoriting individual stories or playlists, despite previous tests indicating these actions should update the count.  
-- **Video Evidence:** [Favoriting Issue](https://www.loom.com/share/3cb2e407f1c64af4a857e4946834a093)  
+- **Video Evidence:**  
+  [<img src="https://logowik.com/content/uploads/images/loom-icon7460.logowik.com.webp" width="20" />](https://www.loom.com/share/3cb2e407f1c64af4a857e4946834a093)[Favoriting Issue - Loom Video](https://www.loom.com/share/3cb2e407f1c64af4a857e4946834a093)
+
 
 ## Changing Playlist Title and Description  
 ### Boundary Testing  
@@ -35,9 +37,13 @@
 
 ### Issues Identified  
 - **Title field accepts spaces as valid input**, resulting in **nameless playlists** that are difficult to identify or search for.  
-  - **Video Evidence:** [Nameless Playlist Issue](https://www.loom.com/share/f0f9ea727585405ab03d7897b7cc7469)  
+- **Video Evidence:**  
+  [<img src="https://logowik.com/content/uploads/images/loom-icon7460.logowik.com.webp" width="20" />](https://www.loom.com/share/f0f9ea727585405ab03d7897b7cc7469)[Nameless Playlist Issue - Loom Video](https://www.loom.com/share/f0f9ea727585405ab03d7897b7cc7469)
+
 - **Playlist descriptions do not display** on the account holder's playlist screen or when shared with non-users.  
-  - **Video Evidence:** [Playlist Description Issue](https://www.loom.com/share/6ec435aa3150412d88e66b4f9e4435c0)  
+  - **Video Evidence:**  
+    [<img src="https://logowik.com/content/uploads/images/loom-icon7460.logowik.com.webp" width="20" />](https://www.loom.com/share/6ec435aa3150412d88e66b4f9e4435c0)[Playlist Description Issue - Loom Video](https://www.loom.com/share/6ec435aa3150412d88e66b4f9e4435c0)
+ 
 
 ## Network Speeds and Offline Behavior  
 ### Network Speed Testing  
@@ -50,20 +56,25 @@
 
 ### Offline Testing  
 - **Adding stories offline showed UI changes but failed to sync with the server after reconnecting**, causing changes to be lost.  
-  - **Video Evidence:** [Offline Sync Issue](https://www.loom.com/share/030c06a9de944598a370d763e39eeeed)  
+  - **Video Evidence:**  
+    [<img src="https://logowik.com/content/uploads/images/loom-icon7460.logowik.com.webp" width="20" />](https://www.loom.com/share/030c06a9de944598a370d763e39eeeed)[Offline Sync Issue - Loom Video](https://www.loom.com/share/030c06a9de944598a370d763e39eeeed)
 
 ## Library Overview Count Mismatch  
 - Adding or removing audio stories updates the **playlist header immediately**, but the **Library overview count does not reflect changes until the page is reloaded**.  
-  - **Video Evidence:** [Library Count Issue](https://www.loom.com/share/9fc4e87d419645a492e1f998feaeb2d6)  
+  - **Video Evidence:**  
+    [<img src="https://logowik.com/content/uploads/images/loom-icon7460.logowik.com.webp" width="20" />](https://www.loom.com/share/9fc4e87d419645a492e1f998feaeb2d6)[Library Count Issue - Loom Video](https://www.loom.com/share/9fc4e87d419645a492e1f998feaeb2d6)
 
 ## Favoriting Playlists Count Mismatch  
 - **Favoriting playlists adds them to the Library**, but the **playlist count in the My Account section is one less than in the Library overview**.  
-  - **Video Evidence:** [Favoriting Count Issue](https://www.loom.com/share/294e3b7049b74c52ac9322f2e710b334)  
+  - **Video Evidence:**  
+    [<img src="https://logowik.com/content/uploads/images/loom-icon7460.logowik.com.webp" width="20" />](https://www.loom.com/share/294e3b7049b74c52ac9322f2e710b334)[Favoriting Count Issue - Loom Video](https://www.loom.com/share/294e3b7049b74c52ac9322f2e710b334)
 
 ## Enhancement Suggestion  
 - Currently, users **must navigate to a playlist to add stories**.  
 - **Suggested Improvement:** Allow users to **add stories to playlists from anywhere in the app** (e.g., browsing categories or profiles).  
-  - **Video Evidence:** [Suggested Enhancement](https://www.loom.com/share/90a45f24de6b4880806e27bf7fafca37)  
+  - **Video Evidence:**  
+    [<img src="https://logowik.com/content/uploads/images/loom-icon7460.logowik.com.webp" width="20" />](https://www.loom.com/share/90a45f24de6b4880806e27bf7fafca37)[Suggested Enhancement - Loom Video](https://www.loom.com/share/90a45f24de6b4880806e27bf7fafca37)
+
 
 ## Playlist Duration Discrepancy  
 - The **total duration in the playlist header is consistently one second longer** than the sum of all stories in the playlist.  
