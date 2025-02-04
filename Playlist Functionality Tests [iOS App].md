@@ -14,11 +14,11 @@
 ### Multiple Stories  
 - Adding stories to a pre-existing playlist worked, but the **Library tab's Recent Activity list incorrectly displayed only one story** in the playlist.  
 - Opening the playlist showed the **correct number of stories**.  
-- **Video Evidence:** [iOS Recent Activity Issue](iOS_recent_activity.MP4)  
+- **Video Evidence:** [iOS Recent Activity Issue](https://drive.google.com/file/d/1Jov4ZjGRTKG3h2fUmvqrb_utsMrOKGhs/view?usp=sharing)  
 
 ### Improvement Noted  
 - The ability to **add stories from anywhere in the app via the three-dot menu** was a **major improvement** over the web app, eliminating the need to navigate back to a playlist.  
-- **Video Evidence:** [iOS Enhancement](iOS_enhancement.MP4)  
+- **Video Evidence:** [iOS Enhancement](https://drive.google.com/file/d/1DSJAM7i-TJWjet-Cw_1LjOc08Lb9SZVC/view?usp=sharing)  
 
 ## Reordering and Removing Stories  
 ### Reordering Stories  
