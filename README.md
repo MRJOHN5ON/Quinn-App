@@ -67,11 +67,29 @@ During testing, I observed several critical and minor issues across both the **i
 
 ## Repo Structure
 
-- **Google Docs Reports**: The detailed reports for both **iOS** and **Web** app testing. These documents contain the full findings, including steps to reproduce, expected vs. actual behavior, and device/browser details.
+- **Reports**: The detailed reports for both **iOS** and **Web** app testing. 
   
-- **Postman Demo**: A video demonstrating the use of Postman for API testing can be found within the google docs. This showcases how requests were sent for manipulating playlists using data from the Chrome DevTools network tab.
+- **Postman Demo**: A video demonstrating the use of Postman for API testing can be found within the docs. This showcases how requests were sent for manipulating playlists using data from the Chrome DevTools network tab.
 
 - **Loom Videos**: Links to Loom videos demonstrating certain bugs and issues found during testing are included throughout the report.
+
+## Bug Report Format and Expectations
+
+As part of the bug reporting process, the following format was expected:
+
+| **Field**            | **Description**                                                                                                                                      |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Issue ID**          | Unique identifier for each issue (e.g., Issue-01).                                                                                                |
+| **Severity**          | Categorized as Critical, Major, Minor, or Enhancement.                                                                                              |
+| **Description**       | A brief explanation of the issue.                                                                                                                   |
+| **Steps to Reproduce**| Step-by-step instructions to replicate the issue.                                                                                                  |
+| **Expected Behavior** | What should happen instead.                                                                                                                        |
+| **Actual Behavior**   | What happens currently.                                                                                                                            |
+| **Device/Browser**    | Device, OS, browser, and version used during testing.                                                                                              |
+| **Screenshot/Video**  | Provide evidence like images or video links to showcase the issue.                                                                                 |
+
+You can find a detailed PDF of the bug reports I created during the testing process in the repository. It includes all the necessary details, formatted according to the guidelines above.
+
 
 ---
 
